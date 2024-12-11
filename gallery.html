@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>Gallery Page</title>
+    <style>
+        body {
+            background-color: #A1C9F2;
+        }
+
+        footer {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #FF0000;
+            background-color: black;
+            padding: 10px;
+        }
+
+        .section-heading {
+            color: aqua;
+            background-color: black;
+            padding: 10px;
+        }
+
+        img {
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Naigaga Shillah</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Gallery Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center section-heading">Memories with Loved Ones</h2>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h3 class="text-center section-heading">Goals & Expectations</h3>
+            <div class="ratio ratio-16x9">
+                <iframe src="aboutme.mp4" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Family Gallery Section -->
+    <section class="py-5">
+        <div class="container">
+            <h3 class="text-center section-heading">Family</h3>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <p>My small but supportive family.</p>
+                    <img src="family.jpg" alt="My Simple Family" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <p>He is a stubborn brother.</p>
+                    <img src="bro.jpg" alt="Lovely Brother" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <p>And of course me, I love myself.</p>
+                    <img src="prof.jpg" alt="Self Portrait" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Friends Gallery Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h3 class="text-center section-heading">Friends</h3>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <p>I call them my <strong>NINJAS</strong>, pals forever.</p>
+                    <img src="pals.jpg" alt="Friends" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <p><strong>Emma</strong>, a friend who knows my story.</p>
+                    <img src="ema.jpg" alt="Friend Emma" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <p><strong>Family</strong>, Humble and supportive</p>
+                    <img src="family.jpg" alt="Friend Emma" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        & copy 2024 Courtesy of Naigaga Shillah
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
